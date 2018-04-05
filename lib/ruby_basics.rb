@@ -11,15 +11,15 @@ def argue(i)
 end
 
 def greeting(greeting, name)
-  greeting name 
+  #{greeting} #{name} 
 end
 
-def return_a_value
-
+def return_a_value(i = "Nice")
+  i
 end
 
-def last_evaluated_value
-
+def last_evaluated_value(i = "expert")
+  i
 end
 
 def pizza_party
